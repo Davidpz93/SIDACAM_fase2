@@ -20,3 +20,8 @@ se pueda explicar el funcionamiento del programa principal y las subfunciones.
 
 5. Recuerden, cada vez que creen una nueva branch y quieran hacer un pull request ser muy especifico en los comentarios. Este archivo 
 tambien se copiara en la nueva rama creada, puden usarlo para explicar el porque de la creacion de la nueva rama y que se espera de esta. 
+
+
+#BusquedaMaximos 
+
+Esta función por medio de un filtro Butterworth pasa banda examina la señal por anchos de banda en frecuencias tales que se puedan discriminar eficientemente frecuencias determinantes. A estos rangos se les extrae la PSDy se convierte el valor en decibeles para almacener el nivel de la señal en dichas frecuencias. Luego se extraen las frecuencias donde los máximos en nivel fueron hallados y se da como resultado de la función ambas informaciones: máximos y sus respectivas frecuencias. Estos dos vectores son las salidas de la función y se almacenan en la base de datos. 
