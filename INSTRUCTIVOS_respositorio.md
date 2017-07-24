@@ -20,3 +20,10 @@ se pueda explicar el funcionamiento del programa principal y las subfunciones.
 
 5. Recuerden, cada vez que creen una nueva branch y quieran hacer un pull request ser muy especifico en los comentarios. Este archivo 
 tambien se copiara en la nueva rama creada, puden usarlo para explicar el porque de la creacion de la nueva rama y que se espera de esta. 
+
+
+# Firma_acustica
+
+Esta función recibe varios parámetros para realizar todos los procesos a fines de la firma acústica. Por ahora está haciendo lo mismo que la función a la que llama internamente llamada "BusquedaMaximos", sin embargo, la idea de esta función es que use otros procesos para dar como resultado final la firma acústica de la señal de la lancha, el vector de máximos y sus frecuencias, los umbrales de detección y las frecuencias principales. 
+
+**FALTA MUCHO POR HACER EN ESTA PARTE**
